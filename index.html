@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weatherpop</title>
+</head>
+<body>
+    
+    <main class="page1">
+        <div class="cloud"></div>
+        <div class="cloud" style="animation-duration: 25s; top: 5%;right:20%"></div>
+        <div class="cloud" style="animation-duration: 35s; top: 10%;"></div>
+        <div class="cloud" style="animation-duration: 41s; top: 4%; left: 20%;"></div>
+        <div class="cloud" style="animation-duration: 31s; top: 30%; right: 40%;"></div>
+        <div class="cloud" style="animation-duration: 26s; top: 33%;right: 33%;"></div>
+        <div class="cloud" style="animation-duration: 37s; top: 44%; left: 16%;"></div>
+        <div class="cloudi" style="animation-duration: 32s; top: 40%;"></div>
+        <div class="cloudi" style="animation-duration: 50s; top: 20%;"></div>
+        <div class="cloudi" style="animation-duration: 37s; top: 25%;"></div>
+        <div class="cloudi" style="animation-duration: 31s; top: 30%;"></div>
+        <div class="sun"></div>
+        <div class="gradient">
+            <h1>Your Weather, Your Way</h1>
+        </div>
+        <div class="gradient2">
+            <h3>Stay updated with real-time weather forecasts for your city and beyond.</h3>
+        </div>
+        <input type="search" placeholder="Search for cities to find weather">
+        <button>Find Weather</button>
+    </main>
+    <main class="page2">
+        <div class="string">
+            <svg width="1000" height="100">
+                <path d="M 10 100 Q 250 100 990 100" stroke="white" fill="transparent"/>
+            </svg>
+        </div>
+    </main>
+    <div class="slider">
+        <!-- list Items -->
+        <div class="list">
+            <div class="item active">
+                <img src="https://static.independent.co.uk/2024/03/20/17/newFile.jpg?quality=75&width=1368&auto=webp">
+                <div class="content">
+                    <p> Check Weather For Popular cities</p>
+                    <h2>Syndey,Australia</h2>
+                    <p>
+                        Discover Sydney's latest weather updates! Click to explore the temperature, wind speed, and humidity before heading outdoors today.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Saint_Basil%27s_Cathedral_and_the_Red_Square.jpg/800px-Saint_Basil%27s_Cathedral_and_the_Red_Square.jpg">
+                <div class="content">
+                    <p> Check Weather For Popular cities</p>
+                    <h2>Moscow,Russia</h2>
+                    <p>
+                        Curious about Moscow's weather? Click here for real-time forecasts, temperature changes, and detailed climate insights. Stay informed!.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="https://worldstrides.com/wp-content/uploads/2015/07/iStock_000057240506_Large.jpg">
+                <div class="content">
+                    <p> Check Weather For Popular cities</p>
+                    <h2>Shanghai,Japan</h2>
+                    <p>
+                        Check Shanghai’s weather now! Get instant updates on temperature, rainfall, and wind patterns to plan your day perfectly.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="https://pohcdn.com/guide/sites/default/files/styles/paragraph__live_banner__lb_image__1880bp/public/live_banner/Las%20Vegas_3.jpg">
+                <div class="content">
+                    <p> Check Weather For Popular cities</p>
+                    <h2>Las Vegas,USA</h2>
+                    <p>
+                        Click to explore Las Vegas' current weather conditions! Stay updated on temperature highs, wind, and humidity levels before going out.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="https://i.postimg.cc/y62yTP99/shutterstock-1127211422.jpg">
+                <div class="content">
+                    <p> Check Weather For Popular cities</p>
+                    <h2>Shimla,India</h2>
+                    <p>
+                        Stay prepared with Shimla's latest weather info! Click to check temperature, wind speed, and forecast updates for your day.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- button arrows -->
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <!-- thumbnail -->
+        <div class="thumbnail">
+            <div class="item active">
+                <img src="https://media.tatler.com/photos/6141d37b9ce9874a3e40107d/16:9/w_2560%2Cc_limit/social_crop_sydney_opera_house_gettyimages-869714270.jpg">
+                <div class="content">
+                    Sydney
+                </div>
+            </div>
+            <div class="item">
+                <img src="https://lp-cms-production.imgix.net/features/2019/04/Moscow-Red-Square-9a8e66e06b49.jpg?w=1440&h=810&fit=crop&auto=format&q=75">
+                <div class="content">
+                    Moscow
+                </div>
+            </div>
+            <div class="item">
+                <img src="https://att-japan.net/wp-content/uploads/2023/06/pixta_97309535_M.webp">
+                <div class="content">
+                    Japan
+                </div>
+            </div>
+            <div class="item">
+                <img src="https://media.cnn.com/api/v1/images/stellar/prod/180313182911-01-las-vegas-travel-strip.jpg?q=w_3418,h_2556,x_0,y_0,c_fill">
+                <div class="content">
+                    Las Vegas
+                </div>
+            </div>
+            <div class="item">
+                <img src="https://indotoursadventures.com/public/storage/blogs/3fe7235b85fdc014f9ec72477df171fc.jpg">
+                <div class="content">
+                    Shimla
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="foot">
+            <h4>Rate us</h4>
+            <h4>FAQ</h4>
+            <h4>Contact Us</h4>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
